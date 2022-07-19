@@ -8,3 +8,14 @@ body{
     box-sizing: border-box;
     background-image: url();
 }
+.data{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    width: 50%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 0%;
+    margin-bottom: 20%;
+
+}
