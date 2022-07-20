@@ -4,9 +4,10 @@ body{
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: white;
-    font-size: 20px;
+    font-size: 40px;
     box-sizing: border-box;
-    background-image: url(assets/images/milk.jpeg);
+    background-image: url(./images/img.jpeg);
+    image-rendering: inherit;
 }
 .data{
     display: flex;
