@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dairy Business</title>
-    <header>Dairy farm</header>
     <link rel="stylesheet" type="text/css" href="assets/index.css">
 </head>
 <body>
-    <script src="index.js"></script>
+    <script src="assets/index.js"></script>
     <section>
+        <h2 id="title">Dairy farm</h2>
         <h3>Enter the milk produced from each shed</h3>
         <div class="data">
             <form action="submit" onsubmit="showTotal()">
@@ -35,7 +35,9 @@
                 </div>
            </form>
         </div>
-        <div>
+        <div class="output">
+            <h3>Total production</h3>
+            <hr>
             <p id="total"></p>
         </div>
 
