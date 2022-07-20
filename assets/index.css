@@ -8,6 +8,7 @@ body{
     box-sizing: border-box;
     background-image: url(./images/img.jpeg);
     image-rendering: inherit;
+    text
 }
 .data{
     display: flex;
