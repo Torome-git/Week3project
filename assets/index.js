@@ -19,4 +19,6 @@ function showTotal() {
       "<p>Your production in shed C is " + data.shedC + " litres per day</p>";
     document.getElementById("total").innerHTML +=
       "<p>Your production in shed D is " + data.shedD + " litres per day</p>";
+
+    dailyIncome = sumData * 45;
 }
