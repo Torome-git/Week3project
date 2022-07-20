@@ -8,9 +8,13 @@ body{
     box-sizing: border-box;
     background-image: url(./images/img.jpeg);
     image-rendering: inherit;
-    text
+    background-size: auto;
 }
-.data{
+#title{
+    text-align: center;
+    text-decoration: underline;
+}
+/*.data{
     display: flex;
     flex-direction: row;
     box-sizing: content-box;
@@ -22,7 +26,13 @@ body{
     margin-top: 20%;
     margin-bottom: 20%;
     /*background-color: green;*/
-
+}
+.data   #sheds{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
 }
 h3{
     text-align: center;
@@ -39,4 +49,17 @@ form{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.output{
+    overflow: auto;
+    width: 50%;
+    background-color: rgb(204, 196, 196);
+    border-radius: 4px;
+    font-size: 16px;
+    height: 500px;
+}
+#button{
+    width: 10%;
+    height: 500%;
 }
